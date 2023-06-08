@@ -7,22 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3F8ECE12A32762800B72014 /* Little_lemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ECE02A32762800B72014 /* Little_lemonApp.swift */; };
-		B3F8ECE32A32762800B72014 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ECE22A32762800B72014 /* ContentView.swift */; };
+		B3F8ECE12A32762800B72014 /* Little_LemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ECE02A32762800B72014 /* Little_LemonApp.swift */; };
 		B3F8ECE52A32762800B72014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F8ECE42A32762800B72014 /* Assets.xcassets */; };
 		B3F8ECE82A32762800B72014 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F8ECE72A32762800B72014 /* Preview Assets.xcassets */; };
 		B3F8ECEA2A32762800B72014 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ECE92A32762800B72014 /* Persistence.swift */; };
-		B3F8ECED2A32762800B72014 /* Little_lemon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ECEB2A32762800B72014 /* Little_lemon.xcdatamodeld */; };
+		B3F8ECED2A32762800B72014 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ECEB2A32762800B72014 /* Database.xcdatamodeld */; };
+		B3F8ECF82A32773800B72014 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ECF72A32773800B72014 /* Onboarding.swift */; };
+		B3F8ECFA2A3277EC00B72014 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ECF92A3277EC00B72014 /* ViewModel.swift */; };
+		B3F8ECFC2A32780E00B72014 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ECFB2A32780E00B72014 /* Menu.swift */; };
+		B3F8ECFE2A32782A00B72014 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ECFD2A32782A00B72014 /* Home.swift */; };
+		B3F8ED002A32784200B72014 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ECFF2A32784200B72014 /* UserProfile.swift */; };
+		B3F8ED022A32785700B72014 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ED012A32785700B72014 /* Hero.swift */; };
+		B3F8ED042A32786D00B72014 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ED032A32786D00B72014 /* Header.swift */; };
+		B3F8ED062A32789100B72014 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ED052A32789100B72014 /* FoodItem.swift */; };
+		B3F8ED082A3278B000B72014 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ED072A3278B000B72014 /* MainScreen.swift */; };
+		B3F8ED0A2A3278D500B72014 /* DetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ED092A3278D500B72014 /* DetailItem.swift */; };
+		B3F8ED0C2A3278EF00B72014 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ED0B2A3278EF00B72014 /* MenuItem.swift */; };
+		B3F8ED0E2A32790900B72014 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ED0D2A32790900B72014 /* MenuList.swift */; };
+		B3F8ED102A32793D00B72014 /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ED0F2A32793D00B72014 /* FetchedObjects.swift */; };
+		B3F8ED122A327B0000B72014 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ED112A327B0000B72014 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B3F8ECDD2A32762800B72014 /* Little lemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little lemon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3F8ECE02A32762800B72014 /* Little_lemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Little_lemonApp.swift; sourceTree = "<group>"; };
-		B3F8ECE22A32762800B72014 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3F8ECDD2A32762800B72014 /* Little Lemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little Lemon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F8ECE02A32762800B72014 /* Little_LemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Little_LemonApp.swift; sourceTree = "<group>"; };
 		B3F8ECE42A32762800B72014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3F8ECE72A32762800B72014 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3F8ECE92A32762800B72014 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B3F8ECEC2A32762800B72014 /* Little_lemon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Little_lemon.xcdatamodel; sourceTree = "<group>"; };
+		B3F8ECF72A32773800B72014 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		B3F8ECF92A3277EC00B72014 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B3F8ECFB2A32780E00B72014 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		B3F8ECFD2A32782A00B72014 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B3F8ECFF2A32784200B72014 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		B3F8ED012A32785700B72014 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		B3F8ED032A32786D00B72014 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		B3F8ED052A32789100B72014 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		B3F8ED072A3278B000B72014 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		B3F8ED092A3278D500B72014 /* DetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItem.swift; sourceTree = "<group>"; };
+		B3F8ED0B2A3278EF00B72014 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		B3F8ED0D2A32790900B72014 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		B3F8ED0F2A32793D00B72014 /* FetchedObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		B3F8ED112A327B0000B72014 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B3F8ED132A327D3400B72014 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +66,8 @@
 		B3F8ECD42A32762800B72014 = {
 			isa = PBXGroup;
 			children = (
-				B3F8ECDF2A32762800B72014 /* Little lemon */,
+				B3F8ED132A327D3400B72014 /* README.md */,
+				B3F8ECDF2A32762800B72014 /* Little Lemon */,
 				B3F8ECDE2A32762800B72014 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,22 +75,23 @@
 		B3F8ECDE2A32762800B72014 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B3F8ECDD2A32762800B72014 /* Little lemon.app */,
+				B3F8ECDD2A32762800B72014 /* Little Lemon.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B3F8ECDF2A32762800B72014 /* Little lemon */ = {
+		B3F8ECDF2A32762800B72014 /* Little Lemon */ = {
 			isa = PBXGroup;
 			children = (
-				B3F8ECE02A32762800B72014 /* Little_lemonApp.swift */,
-				B3F8ECE22A32762800B72014 /* ContentView.swift */,
+				B3F8ECF62A32770600B72014 /* Utilities */,
+				B3F8ECF52A3276F800B72014 /* Core Data */,
+				B3F8ECF42A3276D200B72014 /* Models */,
+				B3F8ECF32A32768800B72014 /* Views */,
+				B3F8ECE02A32762800B72014 /* Little_LemonApp.swift */,
 				B3F8ECE42A32762800B72014 /* Assets.xcassets */,
-				B3F8ECE92A32762800B72014 /* Persistence.swift */,
-				B3F8ECEB2A32762800B72014 /* Little_lemon.xcdatamodeld */,
 				B3F8ECE62A32762800B72014 /* Preview Content */,
 			);
-			path = "Little lemon";
+			path = "Little Lemon";
 			sourceTree = "<group>";
 		};
 		B3F8ECE62A32762800B72014 /* Preview Content */ = {
@@ -73,12 +102,56 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B3F8ECF32A32768800B72014 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3F8ECF72A32773800B72014 /* Onboarding.swift */,
+				B3F8ECFB2A32780E00B72014 /* Menu.swift */,
+				B3F8ECFD2A32782A00B72014 /* Home.swift */,
+				B3F8ECFF2A32784200B72014 /* UserProfile.swift */,
+				B3F8ED012A32785700B72014 /* Hero.swift */,
+				B3F8ED032A32786D00B72014 /* Header.swift */,
+				B3F8ED052A32789100B72014 /* FoodItem.swift */,
+				B3F8ED072A3278B000B72014 /* MainScreen.swift */,
+				B3F8ED092A3278D500B72014 /* DetailItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3F8ECF42A3276D200B72014 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B3F8ECF92A3277EC00B72014 /* ViewModel.swift */,
+				B3F8ED0B2A3278EF00B72014 /* MenuItem.swift */,
+				B3F8ED0D2A32790900B72014 /* MenuList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B3F8ECF52A3276F800B72014 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				B3F8ECE92A32762800B72014 /* Persistence.swift */,
+				B3F8ECEB2A32762800B72014 /* Database.xcdatamodeld */,
+				B3F8ED0F2A32793D00B72014 /* FetchedObjects.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		B3F8ECF62A32770600B72014 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B3F8ED112A327B0000B72014 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B3F8ECDC2A32762800B72014 /* Little lemon */ = {
+		B3F8ECDC2A32762800B72014 /* Little Lemon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3F8ECF02A32762800B72014 /* Build configuration list for PBXNativeTarget "Little lemon" */;
+			buildConfigurationList = B3F8ECF02A32762800B72014 /* Build configuration list for PBXNativeTarget "Little Lemon" */;
 			buildPhases = (
 				B3F8ECD92A32762800B72014 /* Sources */,
 				B3F8ECDA2A32762800B72014 /* Frameworks */,
@@ -88,9 +161,9 @@
 			);
 			dependencies = (
 			);
-			name = "Little lemon";
+			name = "Little Lemon";
 			productName = "Little lemon";
-			productReference = B3F8ECDD2A32762800B72014 /* Little lemon.app */;
+			productReference = B3F8ECDD2A32762800B72014 /* Little Lemon.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B3F8ECD82A32762800B72014 /* Build configuration list for PBXProject "Little lemon" */;
+			buildConfigurationList = B3F8ECD82A32762800B72014 /* Build configuration list for PBXProject "Little Lemon" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +194,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B3F8ECDC2A32762800B72014 /* Little lemon */,
+				B3F8ECDC2A32762800B72014 /* Little Lemon */,
 			);
 		};
 /* End PBXProject section */
@@ -144,9 +217,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3F8ECEA2A32762800B72014 /* Persistence.swift in Sources */,
-				B3F8ECED2A32762800B72014 /* Little_lemon.xcdatamodeld in Sources */,
-				B3F8ECE32A32762800B72014 /* ContentView.swift in Sources */,
-				B3F8ECE12A32762800B72014 /* Little_lemonApp.swift in Sources */,
+				B3F8ECED2A32762800B72014 /* Database.xcdatamodeld in Sources */,
+				B3F8ECFC2A32780E00B72014 /* Menu.swift in Sources */,
+				B3F8ECF82A32773800B72014 /* Onboarding.swift in Sources */,
+				B3F8ED062A32789100B72014 /* FoodItem.swift in Sources */,
+				B3F8ED0A2A3278D500B72014 /* DetailItem.swift in Sources */,
+				B3F8ED082A3278B000B72014 /* MainScreen.swift in Sources */,
+				B3F8ED042A32786D00B72014 /* Header.swift in Sources */,
+				B3F8ED0C2A3278EF00B72014 /* MenuItem.swift in Sources */,
+				B3F8ED0E2A32790900B72014 /* MenuList.swift in Sources */,
+				B3F8ED122A327B0000B72014 /* Utilities.swift in Sources */,
+				B3F8ED022A32785700B72014 /* Hero.swift in Sources */,
+				B3F8ED102A32793D00B72014 /* FetchedObjects.swift in Sources */,
+				B3F8ECFA2A3277EC00B72014 /* ViewModel.swift in Sources */,
+				B3F8ECFE2A32782A00B72014 /* Home.swift in Sources */,
+				B3F8ECE12A32762800B72014 /* Little_LemonApp.swift in Sources */,
+				B3F8ED002A32784200B72014 /* UserProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -262,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -280,6 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Little lemon/Preview Content\"";
+				DEVELOPMENT_TEAM = XFG5L8LD8A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -287,12 +374,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "TaeVon-Lewis.Little-lemon";
+				PRODUCT_BUNDLE_IDENTIFIER = "TaeVon-Lewis.Little-Lemon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,6 +396,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Little lemon/Preview Content\"";
+				DEVELOPMENT_TEAM = XFG5L8LD8A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -315,12 +404,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "TaeVon-Lewis.Little-lemon";
+				PRODUCT_BUNDLE_IDENTIFIER = "TaeVon-Lewis.Little-Lemon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -331,7 +421,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B3F8ECD82A32762800B72014 /* Build configuration list for PBXProject "Little lemon" */ = {
+		B3F8ECD82A32762800B72014 /* Build configuration list for PBXProject "Little Lemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3F8ECEE2A32762800B72014 /* Debug */,
@@ -340,7 +430,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3F8ECF02A32762800B72014 /* Build configuration list for PBXNativeTarget "Little lemon" */ = {
+		B3F8ECF02A32762800B72014 /* Build configuration list for PBXNativeTarget "Little Lemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3F8ECF12A32762800B72014 /* Debug */,
@@ -352,13 +442,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B3F8ECEB2A32762800B72014 /* Little_lemon.xcdatamodeld */ = {
+		B3F8ECEB2A32762800B72014 /* Database.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				B3F8ECEC2A32762800B72014 /* Little_lemon.xcdatamodel */,
 			);
 			currentVersion = B3F8ECEC2A32762800B72014 /* Little_lemon.xcdatamodel */;
-			path = Little_lemon.xcdatamodeld;
+			path = Database.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
